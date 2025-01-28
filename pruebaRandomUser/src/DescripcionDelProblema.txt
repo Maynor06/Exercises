@@ -1,0 +1,34 @@
+Ejercicio: Lista de Usuarios con Filtro por Nombre
+
+Descripción:
+Construye una aplicación en React que consuma la Random User API. La aplicación debe realizar las siguientes tareas:
+
+    1. Obtener una lista de 20 usuarios al cargar la aplicación.
+    2. Mostrar la siguiente información de cada usuario:
+        Nombre completo.
+        Email.
+        País de residencia.
+
+    3. Implementar un campo de búsqueda que permita filtrar la lista por el nombre completo del usuario.
+    4. Añadir un botón para recargar la lista de usuarios.
+
+Requisitos técnicos:
+    Usa React funcional y React Hooks (useState, useEffect).
+    El filtro debe ser en tiempo real a medida que el usuario escribe en el campo de búsqueda.
+    El diseño puede ser básico (no es necesario usar librerías de estilos).
+
+Endpoints de la API:
+URL base: https://randomuser.me/api/
+Para obtener 20 usuarios: https://randomuser.me/api/?results=20
+
+Requisitos adicionales:
+
+    1. Si el campo de búsqueda está vacío, muestra la lista completa.
+    2. Incluye un mensaje de "Cargando..." mientras los datos están siendo obtenidos.
+    3. Si no hay resultados que coincidan con el filtro, muestra el mensaje: "No se encontraron usuarios."
+
+Resultado esperado:
+
+    Cuando el usuario carga la aplicación, debe aparecer una lista de 20 usuarios con un campo de búsqueda en la parte superior.
+    Escribe algo en el campo de búsqueda y observa cómo los resultados se filtran automáticamente. 
+    También, al presionar el botón de recarga, debe obtenerse una nueva lista de usuarios desde la API.
