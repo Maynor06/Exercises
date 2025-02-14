@@ -1,0 +1,27 @@
+.contProduct{
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.price{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
